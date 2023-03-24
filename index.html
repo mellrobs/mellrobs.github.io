@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>CoreTeam - Desenvolvimento Web</title>
+  <!-- SEO -->
+  <meta name="description" content="Nós ajudamos você a consolidar o seu negócio através da criação de aplicações web e sites modernos." />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://coreteam.com.br" />
+  <!-- End SEO -->
+  <!-- Preload -->
+  <link rel="preload" href="fonts/OpenSans-VariableFont_wdth,wght.ttf" as="font" type="font/ttf" crossorigin />
+  <link rel="preload" href="fonts/Oswald-VariableFont_wght.ttf" as="font" type="font/ttf" crossorigin />
+  <link rel="preload" href="css/app.css" as="style" />
+  <link rel="preload" href="images/background.webp" as="image" media="(min-width: 768px)">
+  <!-- End Preload -->
+  <link rel="stylesheet" href="css/app.css" />
+  <!-- Icons -->
+  <link rel="apple-touch-icon" type="image/png" sizes="180x180" href="images/apple-touch-icon.png" />
+  <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
+  <!-- End Icons -->
+  <!-- Open Graph -->
+  <meta property="og:image" content="https://coreteam.com.br/images/open-graph.jpg" />
+  <meta property="og:locale" content="pt_BR" />
+  <meta property="og:title" content="CoreTeam" />
+  <meta property="og:description" content="Desenvolvimento de aplicações web e sites otimizados." />
+  <meta property="og:url" content="https://coreteam.com.br" />
+  <!-- End Open Graph -->
+</head>
+<body>
+  <header>
+    <!-- Navbar -->
+    <nav class="navbar">
+      <div class="container flex align--center gap--medium">
+        <a class="navbar__logo" href="/" aria-label="Home">
+          <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="540.000000pt" height="540.000000pt" viewBox="0 0 540.000000 540.000000" preserveAspectRatio="xMidYMid meet">
+            <g transform="translate(0.000000,540.000000) scale(0.100000,-0.100000)" fill="currentColor" stroke="none">
+              <path d="M1355 2705 c-737 -1278 -1341 -2328 -1343 -2334 -3 -8 594 -11 2067 -11 1139 0 2071 3 2071 8 -1 4 -61 111 -133 237 l-133 230 -1491 5 -1490 5 149 260 c140 243 252 435 603 1045 78 135 212 367 297 515 86 149 213 369 283 490 70 121 202 349 293 508 91 158 169 287 172 287 3 0 141 -234 306 -520 164 -285 304 -526 310 -535 10 -13 50 -15 318 -13 l306 3 -617 1072 c-340 590 -620 1072 -623 1072 -3 0 -608 -1046 -1345 -2324z"/>
+              <path d="M2717 2367 c10 -19 72 -127 138 -240 l119 -207 452 0 452 0 125 -217 c69 -120 216 -375 327 -568 111 -192 257 -445 324 -562 l121 -212 309 -1 c256 0 307 2 303 14 -3 7 -204 357 -446 777 l-441 764 450 5 450 5 -137 238 -137 237 -1213 0 -1213 0 17 -33z"/>
+            </g>
+          </svg>
+          <span hidden>Página inicial</span>
+        </a>
+        <ul class="navbar__menu flex gap--small hidden--mobile">
+          <li><a href="#portfolio">Portfólio</a></li>
+          <li><a href="#team">Nossa equipe</a></li>
+          <li><a href="#contact">Contato</a></li>
+        </ul>
+      </div>
+    </nav>
+    <!-- End Navbar -->
+    <!-- Hero -->
+    <div id="hero">
+      <div class="container grid grid--columns-2">
+        <div class="hero__start flex flex--column justify--center gap--small">
+          <h1>Desenvolvimento Web</h1>
+          <p class="lead">Nós ajudamos você a consolidar o seu negócio através da criação de aplicações web e sites modernos.</p>
+          <a class="button button--large" href="mailto:coreteamsites@gmail.com?subject=Novo%20contato%20do%20site" target="_blank">
+            <!--<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
+            </svg>-->
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+              <polyline points="22,6 12,13 2,6"></polyline>
+            </svg>
+            Fale conosco por e-mail
+          </a>
+          <ul class="social-icons social-icons--large flex gap--small hidden--mobile">
+            <!--<li>
+              <a class="flex align--center" href="mailto:username@example.com?subject=Novo%20contato%20do%20site" title="E-mail" aria-label="E-mail">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                  <polyline points="22,6 12,13 2,6"></polyline>
+                </svg>
+                <span hidden>E-mail</span>
+              </a>
+            </li>-->
+            <li>
+              <a class="flex align--center" href="https://www.instagram.com/mell.robs" target="_blank" title="Instagram" aria-label="Instagram">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                  <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                  <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                </svg>
+                <span hidden>Instagram</span>
+              </a>
+            </li>
+            <li>
+              <a class="flex align--center" href="https://github.com/mellrob" target="_blank" title="GitHub" aria-label="GitHub">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                </svg>
+                <span hidden>GitHub</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="hero__end hidden--mobile"></div>
+      </div>
+    </div>
+    <!-- End Hero -->
+  </header>
+  <main>
+    <!-- Features -->
+    <section id="features">
+      <div class="container flex flex--column gap--medium">
+        <h2 hidden>Características</h2>
+        <dl class="grid grid--columns-3 gap--small">
+          <div class="flex flex--column gap--small">
+            <dt class="h3">Web design responsivo</dt>
+            <dd>Usabilidade prioritária para dispositivos móveis.</dd>
+          </div>
+          <div class="flex flex--column gap--small">
+            <dt class="h3">Foco em desempenho</dt>
+            <dd>Projetos otimizados para seu melhor resultado.</dd>
+          </div>
+          <div class="flex flex--column gap--small">
+            <dt class="h3">Aceitamos Bitcoin</dt>
+            <dd>Transações financeiras sem intermediários.</dd>
+          </div>
+        </dl>
+      </div>
+    </section>
+    <!-- End Features -->
+    <!-- Portfolio -->
+    <section id="portfolio">
+      <div class="container flex flex--column gap--medium">
+        <h2>Portfólio</h2>
+        <div class="grid grid--columns-3 gap--small">
+          <div class="card flex flex--column bg--light">
+            <div class="card__header">
+              <h3 class="card__title text--center">Atmosfera Radical</h3>
+            </div>
+            <div class="card__body">
+              <p>Escola de trike aquático e turismo de aventura &minus; Angra dos Reis, RJ.</p>
+            </div>
+            <div class="card__footer text--center">
+              <a href="https://atmosferaradical.com.br" target="_blank" title="https://atmosferaradical.com.br">Visitar</a>
+            </div>
+          </div>
+          <div class="card flex flex--column bg--light">
+            <div class="card__header">
+              <h3 class="card__title text--center">Festival Aya</h3>
+            </div>
+            <div class="card__body">
+              <p>Festival de música medicina e cultura regenerativa &minus; Chapada dos Veadeiros, GO.</p>
+            </div>
+            <div class="card__footer text--center">
+              <a href="https://ayafestival.art" target="_blank" title="https://ayafestival.art">Visitar</a>
+            </div>
+          </div>
+          <div class="card flex flex--column bg--light">
+            <div class="card__header">
+              <h3 class="card__title text--center">Satyro Engenharia</h3>
+            </div>
+            <div class="card__body">
+              <p>Empresa de engenharia especializada em energia solar &minus; Petrópolis, RJ.</p>
+            </div>
+            <div class="card__footer text--center">
+              <a href="https://satyroeng.com.br" target="_blank" title="https://satyroeng.com.br">Visitar</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Portfolio -->
+    <!-- Team -->
+    <section id="team" class="clearfix">
+      <div class="container grid grid--columns-2-to-1 gap--small">
+        <div class="hidden--mobile"></div>
+        <div class="flex flex--column gap--medium">
+          <h2>Nossa Equipe</h2>
+          <div class="profile flex flex--column gap--medium">
+            <img class="profile__image hidden--tablet" src="images/robson-niemeyer.webp" alt="Foto de Robson Niemeyer" width="160" height="160">
+            <div class="flex flex--column gap--small">
+              <h3>Robson Niemeyer</h3>
+              <p>Experiência de 05 anos na área de <strong>Desenvolvimento Web Full Stack</strong>. Especialista em projeto e desenvolvimento de aplicações web com <strong>HTML/CSS, Express e PostgreSQL</strong>. Habilidades em capacidade analítica, pensamento conceitual, reflexão e autodidatismo. Conhecimento de Linux, Git, Docker e Jest.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Team -->
+    <!-- Contact -->
+    <section id="contact">
+      <div class="container grid grid--columns-2-to-1 align--center gap--large">
+        <div class="flex flex--column gap--medium">
+          <h2>Contato</h2>
+          <address>
+            <dl class="contact__info flex flex--column gap--small">
+              <div class="flex flex--column gap--extra-small">
+                <dt>Horário de atendimento:</dt>
+                <dd>De segunda a sexta, das 10h às 16h</dd>
+              </div>
+              <div class="flex flex--column gap--extra-small">
+                <dt>Endereço:</dt>
+                <dd>Petrópolis, RJ, Brasil</dd>
+              </div>
+            </dl>
+          </address>
+        </div>
+        <div class="card bg--light">
+          <div class="card__header">
+            <h3 class="card__title text--center">Gerenciamento de sites</h3>
+          </div>
+          <div class="card__body flex flex--column gap--small">
+            <p>Além de desenvolver, nós cuidamos de seu site ou comércio eletrônico para que você possa focar 100% na criação de seu melhor produto.</p>
+            <a class="button button--large" href="mailto:coreteamsites@gmail.com?subject=Novo%20contato%20do%20site" target="_blank">
+              <!-- xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
+              </svg>-->
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                <polyline points="22,6 12,13 2,6"></polyline>
+              </svg>
+              Fale conosco por e-mail
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Contact -->
+  </main>
+  <footer>
+    <div class="container">
+      <!-- Social Icons -->
+      <ul class="footer__start social-icons flex justify--center gap--small">
+        <!--<li>
+          <a class="flex align--center" href="mailto:username@example.com?subject=Novo%20contato%20do%20site" title="E-mail" aria-label="E-mail">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+              <polyline points="22,6 12,13 2,6"></polyline>
+            </svg>
+            <span hidden>E-mail</span>
+          </a>
+        </li>-->
+        <li>
+          <a class="flex align--center" href="https://www.instagram.com/mell.robs" target="_blank" title="Instagram" aria-label="Instagram">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+              <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+              <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+            </svg>
+            <span hidden>Instagram</span>
+          </a>
+        </li>
+        <li>
+          <a class="flex align--center" href="https://github.com/mellrob" target="_blank" title="GitHub" aria-label="GitHub">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+            </svg>
+            <span hidden>GitHub</span>
+          </a>
+        </li>
+      </ul>
+      <!-- End Social Icons -->
+      <div class="footer__end flex flex--column align--center gap--extra-small">
+        <small>&copy; 2023 CoreTeam</small>
+        <small class="text--center">Desenvolvimento de aplicações web e sites otimizados.</small>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

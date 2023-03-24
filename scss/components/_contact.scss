@@ -1,0 +1,9 @@
+@media screen and (min-width: $screen-desktop) {
+  #contact {
+    .contact__info {
+      .flex {
+        flex-direction: row;
+      }
+    }
+  }
+}

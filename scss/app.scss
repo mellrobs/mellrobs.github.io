@@ -1,0 +1,33 @@
+@font-face {
+  font-display: swap;
+  font-family: 'Open Sans';
+  font-stretch: 75% 100%;
+  font-style: normal;
+  font-weight: 300 800;
+  src: url(../fonts/OpenSans-VariableFont_wdth,wght.ttf) format('truetype-variations');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: Oswald;
+  font-style: normal;
+  font-weight: 200 700;
+  src: url(../fonts/Oswald-VariableFont_wght.ttf) format('truetype-variations');
+}
+
+@import 'variables';
+@import 'reset';
+@import 'global';
+@import 'button';
+@import 'card';
+@import 'color';
+@import 'container';
+@import 'typography';
+
+@import 'components/global';
+@import 'components/navbar';
+@import 'components/hero';
+@import 'components/portfolio';
+@import 'components/team';
+@import 'components/contact';
+@import 'components/social_icons';

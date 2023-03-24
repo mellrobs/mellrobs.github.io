@@ -1,0 +1,51 @@
+a {
+  color: currentcolor;
+  text-decoration: underline;
+  cursor: pointer;
+  transition: color .2s ease;
+
+  &:hover {
+    color: $color-link;
+  }
+}
+
+code {
+  font-family: $font-monospace;
+  user-select: all;
+}
+
+h1, .h1 {
+  font-family: $font-secondary;
+  font-size: 2.25rem;
+  font-weight: 700;
+  letter-spacing: -1px;
+  line-height: 1.25;
+}
+
+h2, .h2 {
+  font-family: $font-secondary;
+  font-size: 1.75rem;
+  font-weight: 500;
+  letter-spacing: inherit;
+  line-height: 1.25;
+}
+
+h3, .h3 {
+  font-family: inherit;
+  font-size: 1.3125rem;
+  font-weight: 500;
+  letter-spacing: inherit;
+  line-height: inherit;
+}
+
+small, .small {
+  font-size: .6875rem;
+}
+
+strong, .strong {
+  font-weight: 700;
+}
+
+.lead {
+  font-size: 1.125rem;
+}

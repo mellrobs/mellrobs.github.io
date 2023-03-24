@@ -1,0 +1,12 @@
+#team {
+  .profile__image {
+    border: 1px solid $color-dark;
+    border-radius: 50%;
+  }
+}
+
+@media screen and (min-width: $screen-tablet) {
+  #team {
+    background: url(../images/background-robson-niemeyer.webp) center center / cover no-repeat;
+  }
+}

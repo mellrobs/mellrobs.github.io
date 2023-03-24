@@ -1,0 +1,13 @@
+@each $modifier, $color in $colors {
+  .text--#{$modifier} {
+    color: $color !important;
+
+    &:hover {
+      color: $color !important;
+    }
+  }
+
+  .bg--#{$modifier} {
+    background-color: $color !important;
+  }
+}

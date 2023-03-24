@@ -1,0 +1,57 @@
+button, .button {
+  align-items: center;
+  background-color: $color-darker;
+  border: 1px solid transparent;
+  border-radius: 6px;
+  color: $color-lighter;
+  cursor: pointer;
+  display: flex;
+  font-weight: 500;
+  gap: 8px;
+  justify-content: center;
+  letter-spacing: 1px;
+  margin: 8px 0;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: background-color 200ms ease, color 200ms ease, opacity 200ms ease;
+
+  &:hover {
+    background-color: $color-dark;
+    color: $color-lighter;
+  }
+
+  &:disabled {
+    opacity: .5;
+    pointer-events: none;
+  }
+
+  svg {
+    display: none;
+    height: 1rem;
+    width: 1rem;
+  }
+
+  &--large {
+    padding: 12px 24px;
+  }
+
+  &--light {
+    background-color: $color-lighter;
+    color: $color-darker;
+
+    &:hover {
+      background-color: $color-light;
+      color: $color-darker;
+    }
+  }
+}
+
+@media screen and (min-width: $screen-desktop) {
+  button, .button {
+    svg {
+      display: block;
+    }
+  }
+}

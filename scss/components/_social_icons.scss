@@ -1,0 +1,21 @@
+.social-icons {
+  margin: 8px 0;
+
+  a:any-link {
+    border-radius: 6px;
+    padding: 8px;
+    text-decoration: none;
+    transition: color 200ms ease;
+
+    svg {
+      height: 1rem;
+      width: 1rem;
+    }
+  }
+
+  &--large {
+    a:any-link {
+      padding: 12px;
+    }
+  }
+}

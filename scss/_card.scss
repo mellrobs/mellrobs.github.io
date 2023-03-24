@@ -1,0 +1,38 @@
+.card {
+  border: 1px solid $color-neutral;
+  border-radius: 6px;
+
+  .card__header {
+    border-bottom: 1px solid $color-neutral;
+    padding: 16px 24px;
+  }
+
+  .card__title {
+    font-family: inherit;
+    font-size: 1.3125rem;
+    font-weight: 700;
+    letter-spacing: -1px;
+    line-height: 1.25;
+  }
+
+  .card__body {
+    padding: 16px 24px;
+  }
+
+  .card__footer {
+    border-top: 1px solid $color-neutral;
+    padding: 16px 24px;
+  }
+
+  &--dark {
+    border-color: rgba(255, 255, 255, .2);
+    background-color: $color-darker;
+    color: $color-lighter;
+
+    .card__header,
+    .card__footer {
+      border-color: rgba(255, 255, 255, .2);
+    }
+  }
+}
+

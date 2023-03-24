@@ -1,0 +1,61 @@
+html {
+  font-family: $font-primary;
+  font-size: 18px;
+  font-synthesis: none;
+  font-weight: 400;
+  height: 100%;
+  line-height: 1.5;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+}
+
+body {
+  background-color: $color-lighter;
+  color: $color-darker;
+  min-height: 100%;
+}
+
+dt {
+  font-weight: 700;
+}
+
+hr {
+  border-top: 1px solid $color-neutral;
+  margin: 8px 0;
+}
+
+[hidden] {
+  display: none;
+}
+
+.clearfix::after {
+  content: '';
+  clear: both;
+  display: table;
+}
+
+.shadow {
+  box-shadow: $shadow;
+}
+
+.text {
+  &--center {
+    text-align: center;
+  }
+
+  &--bold {
+    font-weight: 700;
+  }
+}
+
+@media screen and (max-width: calc($screen-tablet - 1px)) {
+  .hidden--mobile {
+    display: none !important;
+  }
+}
+
+@media screen and (min-width: $screen-tablet) {
+  .hidden--tablet {
+    display: none !important;
+  }
+}
